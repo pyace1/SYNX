@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900|Raleway:400,700');
+
+:root {
+    --pink: #f20f97;
+    --black: #000;
+    --white: #fff;
+    --transition: .4s ease;
+    --gray: gray;
+    --lightgray: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+/************H E A D E R***********/
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+.logo {
+    color: var(--white);
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.logo span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+nav ul a {
+    color: var(--white);
+    text-decoration: none;
+    margin-left: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+hgroup {
+    display: flex;
+}
