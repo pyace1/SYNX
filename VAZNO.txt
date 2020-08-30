@@ -1,0 +1,3 @@
+1. vezbanje Flex-a
+2. stavljanje visine u headeru da bi centrirali hgroup u hederu sa height: 90vh,posle
+	justify-content: center;
